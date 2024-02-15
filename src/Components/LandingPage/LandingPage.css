@@ -1,0 +1,12 @@
+.LandingPage{
+    background-image: url("../../../public/img-17.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 100px;
+}

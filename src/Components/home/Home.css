@@ -1,0 +1,212 @@
+.homeContent {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+}
+.popup {
+  position: absolute;
+  background-color: gray;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup-content {
+  height: 300px;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  border-radius: 10px;
+}
+.index {
+  width: 40px;
+}
+.name {
+  width: 150px;
+}
+.details {
+  width: 20px;
+  color: rgb(75, 75, 248);
+  cursor: pointer;
+}
+.url {
+  width: 300px;
+}
+.paginationButtons {
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.tableData {
+  height: 40px;
+  border-bottom: solid 1px gray;
+}
+.tableWraper {
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 177px;
+  margin-top: 30px;
+  border: solid 1px rgb(214, 211, 211);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+  border-radius: 8px;
+}
+.nextButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 400px) {
+  .url {
+    display: none;
+  }
+  .paginationButtons {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .tableWraper {
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 50px;
+    border: solid 1px rgb(214, 211, 211);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    border-radius: 8px;
+  }
+  .wraperz {
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .url {
+    display: none;
+  }
+  .paginationButtons {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .tableWraper {
+    width: 90vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 50px;
+    border: solid 1px rgb(214, 211, 211);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    border-radius: 8px;
+  }
+  .wraperz {
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+  .url {
+    display: block;
+  }
+  .paginationButtons {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .tableWraper {
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 50px;
+    border: solid 1px rgb(214, 211, 211);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    border-radius: 8px;
+  }
+  .wraperz {
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  .url {
+    display: block;
+  }
+  .paginationButtons {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .tableWraper {
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 50px;
+    border: solid 1px rgb(214, 211, 211);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    border-radius: 8px;
+  }
+  .wraperz {
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+  .url {
+    display: block;
+  }
+  .paginationButtons {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .tableWraper {
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 50px;
+    border: solid 1px rgb(214, 211, 211);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    border-radius: 8px;
+  }
+}

@@ -1,0 +1,33 @@
+.earn {
+  display: flex;
+}
+.soon {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+ 
+}
+.com{
+    color: gray;
+    animation-name: comingSoon;
+    animation-duration: 4s;
+    animation-iteration-count:infinite
+}
+
+
+@keyframes comingSoon {
+  0% {
+   opacity: .5;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+   }
+   100% {
+     opacity: .5;
+   }
+
+}

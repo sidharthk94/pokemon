@@ -1,0 +1,77 @@
+.loginPage {
+  background-image: url("../../../public/img-17.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.signUp {
+  color: rgb(71, 71, 241);
+}
+.formMain {
+  height: 70vh;
+  width: 30vw;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.emailInput {
+  display: flex;
+  flex-direction: column;
+  gap: -20px;
+}
+.submit {
+  width: 100%;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.submitButton {
+  height: 30px;
+  width: 150px;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+}
+input {
+  border: solid 1px gainsboro;
+  border-radius: 5px;
+  height: 20px;
+  outline: none;
+  padding-left: 10px;
+}
+.errorMsg{
+  color: red;
+  font-size: 13px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 600px){
+  .formMain {
+    height: 70vh;
+    width: 70vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 959px){
+  .formMain {
+    height: 70vh;
+    width: 60vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+  }
